@@ -1,0 +1,29 @@
+body {
+    text-align:center;
+    animation: color-change 30s infinite;
+  /*padding: 50px;*/
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+  background-color:#7FD1B9;
+  /*color:#DE6E4B;*/
+  color: black;
+  font-family: 'Exo 2', sans-serif;
+  /*display:inline-block;*/
+  font-size: 30px;
+
+}
+
+a {
+  color: #00B7FF;
+}
+
+@keyframes color-change {
+    0%   {background-color:#7FD1B9;}
+    25%  {background-color:#FFC09F;}
+    50%  {background-color:#FFEE93;}
+    75%  {background-color:#258EA6;}
+    100%  {background-color:#7FD1B9}
+}
+
+.hr{
+    /*border: 3px ridge #00B7FF;*/
+}
